@@ -67,3 +67,18 @@ for (let i = 1; i <= 10; i++) {
     console.log("Olá");
 }
 
+// 11 Múltiplos de 2 e 3 até 50
+for (let i = 1; i <= 50; i++) {
+    if (i % 2 === 0 && i % 3 === 0) {
+        console.log(i);
+
+// 12 Somar apenas pares até 100
+let somaPares = 0
+for (let i = 1 ; i <= 100 ; i++){
+	if (i % 2 === 0){
+    somaPares += i
+    console.log (i)}
+    }
+    console.log ("A soma dos pares de 1 a 100 é: " + somaPares);
+}}
+
