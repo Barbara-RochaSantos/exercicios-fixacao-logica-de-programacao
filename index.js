@@ -44,16 +44,35 @@ for (let i = 1; i <=100 ; i++){
     console.log (soma)
 
  // 7 Contar múltiplos de 3 entre 1 e 50
-for (let i = 1 ; i <=50 ; i++){
+for (let i = 1 ; i <=50 ; i++){                   
     if (i%3===0);
     console.log (i)
 }
+ 
+
+
+// Para saber quantos múltiplos de 3 existem entre 1 e 50, podemos usar um contador
+//let contador = 0;
+//for (let i = 1; i <= 50; i++) {
+//if (i % 3 === 0) {
+//contador++;
+//}
+//}
+//console.log("Total de múltiplos de 3 entre 1 e 50:", contador);
+
+
 
 // 8 Imprimir os quadrados de 1 a 10
     
  for (let i = 1; i<=10 ; i++){
 	let quadrado = i*i
     console.log (quadrado)}  
+
+
+ // Outra forma de fazer o mesmo exercício, usando a função Math.pow para calcular o quadrado   
+//for (let i = 1; i<=10 ; i++){
+//	console.log (`${i}² = ${Math.pow (i,2)}`)}  //Math.pow(base, expoente) é uma função que retorna a base elevada ao expoente especificado.
+
 
 // 9 Contar números divisíveis por 5 até 100
 
