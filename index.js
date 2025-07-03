@@ -82,3 +82,29 @@ for (let i = 1 ; i <= 100 ; i++){
     console.log ("A soma dos pares de 1 a 100 é: " + somaPares);
 }}
 
+// 13 Imprimir de 100 a 1
+for (let i = 100; i >= 1; i--) {
+    console.log(i);
+}   
+
+// 14 Contar de 0 a 100 de 5 em 5
+for (let i = 0 ; i<= 100 ; i+=5 ){
+    console.log (i)             
+}
+
+// 15 Linha de asteriscos
+let linha = ""
+for (let i = 1; i <= 10; i++) {
+    linha += "*"; // Adiciona um asterisco à linha
+}       
+console.log(linha); // Imprime a linha de asteriscos
+
+// 16 Pares de um array
+let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];      
+for (let i = 0; i < numeros.length; i++) {  //numeros.length retorna o tamanho do array
+    if (numeros[i] % 2 === 0) { // Verifica se o número é par | numero[i] é o elemento do array
+        console.log(numeros[i]); // Imprime o número par
+    }   
+}
+
+
