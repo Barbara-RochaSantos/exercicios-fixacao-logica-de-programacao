@@ -36,6 +36,34 @@ for (let i = 10 ; i >= 1 ; i--){
 	console.log (i)
     }
 
+// 6 Somar números de 1 a 100
+let soma = 0
+for (let i = 1; i <=100 ; i++){
+	soma += i
+    }
+    console.log (soma)
 
+ // 7 Contar múltiplos de 3 entre 1 e 50
+for (let i = 1 ; i <=50 ; i++){
+    if (i%3===0);
+    console.log (i)
+}
+
+// 8 Imprimir os quadrados de 1 a 10
     
-   
+ for (let i = 1; i<=10 ; i++){
+	let quadrado = i*i
+    console.log (quadrado)}  
+
+// 9 Contar números divisíveis por 5 até 100
+
+for (let i = 5; i<=100 ; i++){
+    if (i%5===0)
+        console.log (i)
+        }
+
+// 10 Imprimir "Olá" 10 vezes
+for (let i = 1; i <= 10; i++) {
+    console.log("Olá");
+}
+
